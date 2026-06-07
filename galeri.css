@@ -202,6 +202,7 @@ a{
 .contact {
     display: flex;
     flex-direction: column;
+    margin-top: -100px;
     width: 380px;
     background-color: #ffffff;
     border-radius: 24px;
