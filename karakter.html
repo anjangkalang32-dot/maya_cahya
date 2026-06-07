@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="karakter.css">
+</head>
+<body>
+    
+    <!-- ===== TOPBAR (tablet only, selalu tampil) ===== -->
+    <div class="topbar" id="topbar">
+        <button class="hamburger-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="topbar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+    <div class="sidebar-panel" id="sidebarPanel">
+        <button class="sidebar-close-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="sidebar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <nav class="sidebar-menu">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+        <div class="sidebar-sosmed">
+            <a href="https://www.instagram.com/myachya_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <header class="navbar">
+        <div class="logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <div class="menu-tengah">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+        <div class="sosmed-icons">
+            <a href="https://www.instagram.com/mayacahya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </header>
+<main>
+        <button class="back"><a href="galeri.html"><i class="fa-solid fa-arrow-left"></i></a></button>
+        
+        <div class="slider-container">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            <input type="radio" name="slide" id="slide6">
+            <input type="radio" name="slide" id="slide7">
+            <input type="radio" name="slide" id="slide8">
+            
+            <div class="slides">
+                <div class="slide s1">
+                    <img src="desain karakter/desain karakter bujang kuratauan.png" alt="Gambar 1">
+                </div>
+                <div class="slide">
+                    <img src="desain karakter/IMG_4024.PNG" alt="Gambar 2">
+                </div>
+                <div class="slide">
+                    <img src="desain karakter/its.Leomy.png" alt="Gambar 3">
+                </div>
+                <div class="slide">
+                    <img src="desain karakter/Tanpa judul (2480 x 3508 piksel).png" alt="Gambar 4">
+                </div>
+                <div class="slide">
+                    <img src="desain karakter/cover-karakter.png" alt="Gambar 5">
+                </div>
+                <div class="slide">
+                    <img src="desain grafis/Maya Cahya Wulan_Desain Poster Tugas 3 (1).png" alt="Gambar 6">
+                </div>
+            </div>
+
+            <div class="nav-btn-container n1">
+                <label for="slide6" class="prev-btn">&lt;</label>
+                <label for="slide2" class="next-btn">&gt;</label>
+            </div>
+
+            <div class="nav-btn-container n2">
+                <label for="slide1" class="prev-btn">&lt;</label>
+                <label for="slide3" class="next-btn">&gt;</label>
+            </div>
+
+            <div class="nav-btn-container n3">
+                <label for="slide2" class="prev-btn">&lt;</label>
+                <label for="slide4" class="next-btn">&gt;</label>
+            </div>
+
+            <div class="nav-btn-container n4">
+                <label for="slide3" class="prev-btn">&lt;</label>
+                <label for="slide5" class="next-btn">&gt;</label>
+            </div>
+
+            <div class="nav-btn-container n5">
+                <label for="slide4" class="prev-btn">&lt;</label>
+                <label for="slide6" class="next-btn">&gt;</label>
+            </div>
+
+            <div class="nav-btn-container n6">
+                <label for="slide5" class="prev-btn">&lt;</label>
+                <label for="slide1" class="next-btn">&gt;</label>
+            </div>
+        </div>
+
+        <div class="text">
+            <h1>Desain Karakter</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem optio eius iste ex hic assumenda officiis porro, modi quo. Quisquam deleniti magnam rerum deserunt ad a delectus, maxime culpa alias eos beatae fuga quam aperiam suscipit explicabo unde quia distinctio accusantium aut quas! Animi, quasi deleniti a dolores ex, perferendis necessitatibus ullam provident veniam rem sed inventore dolorem alias quia aliquid, delectus ad? Distinctio consequatur placeat esse eligendi? Nobis, veritatis molestias vitae quis perferendis laboriosam sit expedita earum exercitationem cumque. Consectetur, sit! Saepe ipsam voluptatum esse laboriosam itaque eaque dolorum magnam, quas rerum ipsum, sequi quam veritatis aspernatur sed dignissimos perferendis possimus veniam quaerat quae ex non obcaecati repellat mollitia. Laboriosam ut neque eaque quisquam voluptatibus sapiente dolorem quas magni alias similique vel esse cupiditate doloribus nulla nisi assumenda veniam pariatur asperiores nobis blanditiis, sed ab provident iste! Tenetur at sed incidunt blanditiis saepe alias suscipit ab quas aut quod a cupiditate nulla error magnam perspiciatis est, nihil voluptatibus, expedita deserunt. Eum doloremque maxime delectus doloribus officia vel quidem deserunt cum ea a. Enim nesciunt rerum natus veritatis? Iste voluptatum esse mollitia quia numquam ex illo et quam sunt, modi doloribus, non architecto distinctio quis quas sint perspiciatis enim provident.</p>
+        </div>
+        <button class="btn"><a href="contact.html">Kerjasama</a></button>
+    </main>
+    <script>
+        function toggleSidebar() {
+            const panel = document.getElementById('sidebarPanel');
+            const overlay = document.getElementById('sidebarOverlay');
+            panel.classList.toggle('sidebar-open');
+            overlay.classList.toggle('overlay-active');
+        }
+    </script>
+</body>
+</html>

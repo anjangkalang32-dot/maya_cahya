@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="topbar" id="topbar">
+        <button class="hamburger-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="topbar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+    <div class="sidebar-panel" id="sidebarPanel">
+        <button class="sidebar-close-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="sidebar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <nav class="sidebar-menu">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+        <div class="sidebar-sosmed">
+            <a href="https://www.instagram.com/myachya_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <header class="navbar">
+        <div class="logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <div class="menu-tengah">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+        <div class="sosmed-icons">
+            <a href="https://www.instagram.com/mayacahya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </header>
+<main class="main-page">
+<div class="location">
+<i class="ph ph-map-pin map"></i>
+<h3>Pekalongan, Indonesia</h3>
+</div>
+<h1 class="judul-hero">
+    <span class="teks-halo">Hai, aku</span> 
+    <span class="teks-maya">maya!</span>
+</h1>
+<p class="yaping">
+    Selamat datang di portofolio kecilku! aku desainer yang suka <br>
+    bercerita lewat visual. Di sini kamu bisa melihat karya-karya <br>
+    yang kubuat dengan penuh hati dari identitas merek yang <br>
+    hangat hingga antarmuka yang nyaman dipakai. Yuk,jelajahi <br>
+    bersama, dan kalau suka, jangan sungkan untuk mengajakku <br>
+    berkolaborasi!
+</p>
+<button class="tombol"><a href="galeri.html">Lihat karya saya</a></button>
+<div class="card">
+    <img src="Home.jpg" alt="gambar">
+</div>
+</main>
+    <script>
+        function toggleSidebar() {
+            const panel = document.getElementById('sidebarPanel');
+            const overlay = document.getElementById('sidebarOverlay');
+            panel.classList.toggle('sidebar-open');
+            overlay.classList.toggle('overlay-active');
+        }
+    </script>
+</body>
+</html>

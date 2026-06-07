@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Patrick+Hand&family=Quicksand:wght@500;700&display=swap');
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+}
+.A{
+    padding-left: 100px;
+}
+.navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #F194B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.menu-tengah {
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sosmed-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20cm;
+    margin-top: -40px;
+    font-size: 40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.huruf-1{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-2{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-3{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.huruf-4{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-5{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-6{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-7{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-8{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-9{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.text{
+    padding: 50px 0px 0px 5rem;
+}
+.text h2{
+    font-family: 'Quicksand', cursive;
+    font-size: 30px;
+}
+.text h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: red;
+}
+.text p{
+    font-family: 'Fredoka', cursive;
+    font-size: 20px;
+    color: rgb(131, 132, 133);
+}
+.telegram{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    background-color: #ebebeb;
+    margin: 3rem 0px 0px 20rem;
+}
+.telegram{
+    font-size: 50px;
+    color: rgb(91, 157, 255);
+    padding: 20px 0px 0px 50px;
+}
+.telegram h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: rgb(131, 132, 133);
+}
+.telegram h3{
+    font-family: 'Fredoka', cursive;
+    font-size: 20px;
+    color: rgb(131, 132, 133);
+}
+.telegram p{
+    font-family: 'Fredoka', cursive;
+    font-size: 14px;
+    color: rgb(131, 132, 133);
+}
+.telegram button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(91, 157, 255);
+    color: white;
+    font-family: 'Fredoka', cursive;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.email{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    background-color: #ebebeb;
+    margin: -15.5rem 0px 0px 50rem;
+    padding-left: 13px;
+    padding-top: 20px;
+}
+.email i{
+    font-size: 50px;
+    color: rgb(75, 75, 75);
+}
+.email h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: rgb(131, 132, 133);
+}
+.email h3{
+    font-family: 'Fredoka', cursive;
+    font-size: 20px;
+    color: rgb(131, 132, 133);
+}
+.email p{
+    font-family: 'Fredoka', cursive;
+    font-size: 14px;
+    color: rgb(131, 132, 133);
+}
+.email button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(91, 157, 255);
+    color: white;
+    font-family: 'Fredoka', cursive;
+    font-size: 14px;
+    margin-left: 85px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+}
+.topbar {
+    display: contents;
+}
+.sidebar-close-btn{
+    display: none;}
+.sidebar-logo{
+    display: none;
+}
+.sidebar-sosmed{
+    display: none;
+}
+.hamburger-btn{
+    display: none;
+}
+.topbar-logo{
+    display: none;
+}
+.sidebar-menu{
+    display: none;
+}
+@media (max-width: 1024px){
+.navbar {
+    display: none !important;
+}
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F194B4;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.topbar-logo {
+    text-align: center;
+    line-height: 1;
+    display: flex;
+}
+
+.topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+.topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+    font-size: 50px;
+}
+.hamburger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #F194B4;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+    z-index: 101;
+}
+.hamburger-btn:hover {
+    background-color: #fde8f0;
+}
+
+.sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 148;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.sidebar-overlay.overlay-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 120vh;
+    background-color: #F194B4;
+    padding-top: 80px;
+    z-index: 149;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.sidebar-panel.sidebar-open {
+    transform: translateX(0);
+}
+.sidebar-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+.sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sidebar-close-btn:hover {
+    background-color: rgba(255,255,255,0.45);
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar-menu a {
+    display: block;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s;
+    text-align: left;
+}
+.sidebar-menu a:hover {
+    background-color: rgba(255,255,255,0.18);
+}
+.sidebar-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+.text{
+    margin-top: 10rem;
+    margin-left: -10px;
+}
+.text h2{
+    font-family: 'Quicksand', cursive;
+    font-size: 50px;
+}
+.text h3{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    color: red;
+}
+.text p{
+    font-family: 'Fredoka', cursive;
+    font-size: 25px;
+    color: rgb(131, 132, 133);
+}
+.telegram{
+    border-radius: 20px;
+    width: 40rem;
+    height: 30rem;
+    background-color: #ebebeb;
+    margin: 3rem 0px 0px 2rem;
+}
+.telegram i{
+    font-size: 80px;
+    color: rgb(91, 157, 255);
+    padding: 20px 0px 0px 0px;
+}
+.telegram h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    color: rgb(131, 132, 133);
+}
+.telegram h3{
+    font-family: 'Fredoka', cursive;
+    font-size: 35px;
+    color: rgb(131, 132, 133);
+}
+.telegram p{
+    font-family: 'Fredoka', cursive;
+    font-size: 25px;
+    color: rgb(131, 132, 133);
+}
+.telegram button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(91, 157, 255);
+    color: white;
+    font-family: 'Fredoka', cursive;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+.email{
+    padding: 40px;
+    border-radius: 20px;
+    width: 40rem;
+    height: 30rem;
+    background-color: #ebebeb;
+    margin: 5rem 0px 0px 2rem;
+}
+.email i{
+    font-size: 80px;
+    color: rgb(124, 124, 124);
+    padding: 20px 0px 0px 0px;
+}
+.email h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    color: rgb(131, 132, 133);
+}
+.email h3{
+    font-family: 'Fredoka', cursive;
+    font-size: 35px;
+    color: rgb(131, 132, 133);
+}
+.email p{
+    font-family: 'Fredoka', cursive;
+    font-size: 25px;
+    color: rgb(131, 132, 133);
+}
+.email button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(91, 157, 255);
+    color: white;
+    font-family: 'Fredoka', cursive;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+}
+@media (max-width: 480px) {
+    .topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+    .topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+        font-size: 32px;
+    }
+    .topbar-logo{
+        display: flex;
+        padding: 20px;
+    }
+    .text {
+        margin-top: 7rem;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .text h2 {
+        font-size: 28px;
+    }
+    .text h3 {
+        font-size: 20px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .telegram {
+        width: 90%;
+        height: auto;
+        margin: 2rem auto;
+        padding: 20px;
+    }
+    .telegram i {
+        font-size: 50px;
+        padding: 0;
+    }
+    .telegram h2 {
+        font-size: 28px;
+    }
+    .telegram h3 {
+        font-size: 18px;
+    }
+    .telegram p {
+        font-size: 14px;
+    }
+    .telegram button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    .email {
+        width: 90%;
+        height: auto;
+        margin: 1.5rem auto;
+        padding: 20px;
+    }
+    .email i {
+        font-size: 50px;
+        padding: 0;
+    }
+    .email h2 {
+        font-size: 28px;
+    }
+    .email h3 {
+        font-size: 18px;
+    }
+    .email p {
+        font-size: 14px;
+    }
+    .email button {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    .topbar {
+        height: 80px;
+    }
+    .sidebar-sosmed{
+        padding-bottom: 100px;
+        font-size: 40px;
+    }
+    .hamburger-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}

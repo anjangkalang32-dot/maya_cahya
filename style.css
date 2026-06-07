@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Patrick+Hand&family=Quicksand:wght@500;700&display=swap');
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+}
+.A{
+    padding-left: 100px;
+}
+.navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #F194B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.menu-tengah {
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sosmed-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20cm;
+    margin-top: -40px;
+    font-size: 40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.huruf-1{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-2{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-3{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.huruf-4{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-5{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-6{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-7{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-8{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-9{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.judul-hero {
+    padding: 20px 0px 0px 50px;
+}
+.teks-halo {
+    font-family: 'Patrick Hand', cursive;
+    color: #4A4A4A; 
+    font-size: 48px;
+}
+.teks-maya {
+    font-family: 'Patrick Hand', sans-serif;
+    font-weight: 700;
+    color: #cf8655;
+    font-size: 48px;
+}
+.location{
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+.map{
+    display: flex;
+    font-size: 30px;
+    color: #2c2c2c;
+}
+.location h3{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    color: #2c2c2c;
+    font-size: 30px;
+}
+.yaping{
+    display: flex;
+    padding: 20px 0px 0px 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: #757575;
+    font-size: 20px;
+}
+.tombol{
+    margin: 40px 0px 0px 15rem;
+    width: 150px;
+    height: 30px;
+    border-radius: 100vh;
+    border: none;
+    align-items: center;
+    background-color: rgb(115, 209, 240);
+    color: white;
+    cursor: pointer;
+}
+.card{
+    display: flex;
+    width: 20rem;
+    height: 25rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: -55vh 0px 0px 25cm;
+}
+.topbar {
+    display: contents;
+}
+.sidebar-close-btn{
+    display: none;}
+.sidebar-logo{
+    display: none;
+}
+.sidebar-sosmed{
+    display: none;
+}
+.hamburger-btn{
+    display: none;
+}
+.topbar-logo{
+    display: none;
+}
+.sidebar-menu{
+    display: none;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 1024px){
+.navbar {
+    display: none !important;
+}
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F194B4;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.topbar-logo {
+    text-align: center;
+    line-height: 1;
+    display: flex;
+}
+
+.topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+.topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+    font-size: 50px;
+    display: flex;
+}
+.hamburger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #F194B4;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+    z-index: 101;
+}
+.hamburger-btn:hover {
+    background-color: #fde8f0;
+}
+.sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 148;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.sidebar-overlay.overlay-active {
+    opacity: 1;
+    pointer-events: all;
+}
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #F194B4;
+    padding-top: 80px;
+    z-index: 149;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.sidebar-panel.sidebar-open {
+    transform: translateX(0);
+}
+.sidebar-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+.sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sidebar-close-btn:hover {
+    background-color: rgba(255,255,255,0.45);
+}
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar-menu a {
+    display: block;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s;
+    text-align: left;
+}
+.sidebar-menu a:hover {
+    background-color: rgba(255,255,255,0.18);
+}
+.sidebar-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+.judul-hero {
+    padding: 20px 0px 0px 50px;
+}
+.teks-halo{
+    font-family: 'Patrick Hand', cursive;
+    color: #4A4A4A; 
+    font-size: 50px;
+}
+.teks-maya {
+    font-family: 'Patrick Hand', sans-serif;
+    font-weight: 700;
+    color: #cf8655;
+    font-size: 50px;
+}
+.location{
+    display: flex;
+    padding: 50px 0px 0px 50px;
+}
+.map{
+    display: flex;
+    font-size: 30px;
+    color: #2c2c2c;
+}
+.location h3{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    color: #2c2c2c;
+    font-size: 30px;
+}
+.yaping{
+    display: flex;
+    padding: 20px 0px 0px 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: #757575;
+    font-size: 35px;
+}
+.tombol{
+    margin: 20px 0px 0px 20rem;
+    width: 20rem;
+    height: 75px;
+    border-radius: 100vh;
+    border: none;
+    align-items: center;
+    font-size: 35px;
+    background-color: rgb(115, 209, 240);
+    color: white;
+}
+.card{
+    display: flex;
+    width: 30rem;
+    height: 25rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 20px 0px 0px 7cm;
+}
+}
+@media (max-width: 480px) {
+    .judul-hero {
+        padding: 0px 0px 0px 20px;
+    }
+    .teks-halo {
+        font-size: 36px;
+    }
+    .teks-maya {
+        font-size: 36px;
+    }
+    .location {
+
+        padding: 120px 0px 0px 20px;
+    }
+    .map {
+        font-size: 22px;
+    }
+    .location h3 {
+        font-size: 22px;
+    }
+    .yaping {
+        padding: 15px 0px 0px 20px;
+        font-size: 16px;
+    }
+    .tombol {
+        margin: 20px 0px 0px 20px;
+        width: 180px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .card {
+        width: 90%;
+        height: 200px;
+        margin: 20px auto;
+    }
+    .topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+    .topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+        font-size: 30px;
+        display: flex;
+    }
+    .topbar-logo{
+        display: flex;
+        padding: 20px;
+    }
+    .sidebar-sosmed{
+        padding-bottom: 100px;
+        font-size: 40px;
+    }
+    .hamburger-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .topbar {
+        height: 80px;
+    }
+}

@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Patrick+Hand&family=Quicksand:wght@500;700&display=swap');
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+}
+.A{
+    padding-left: 100px;
+}
+.navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #F194B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.menu-tengah {
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sosmed-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20cm;
+    margin-top: -40px;
+    font-size: 40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.huruf-1{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-2{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-3{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.huruf-4{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-5{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-6{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-7{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-8{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-9{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: #F194B4;
+    margin: 100px 0px 0px 70px;
+    border-radius: 20px;
+}
+.text{
+    margin-top: -19rem;
+}
+.text h2{
+    font-family: 'Fredoka', cursive;
+    font-size: 40px;
+    padding: 0px 0px 0px 25rem;
+    color: pink;
+}
+.text .sub-judul{
+    font-family: 'Patrick Hand', sans-serif;
+    color: rgb(129, 175, 228);
+}
+.text p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(129, 175, 228);
+    padding: 0px 0px 0px 25rem;
+    font-size:15px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(101, 143, 190);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 0px 30rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(104, 151, 204);
+}
+.main-container{
+    width: 90vw;
+    height: 90vh;
+}
+.proyek-desain{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 200px;
+    height: 125px;
+    background-color: #f5f3f3;
+    margin: 100px 0px 0px 15rem;
+    border: 5px solid #ccc;
+    padding: 20px;
+}
+.proyek-desain h2{
+    font-size: 30px;
+    font-family: 'Fredoka', cursive;
+    padding: 0px 0px 0px 55px;
+}
+.proyek-desain h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+
+}
+.pengalaman{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 200px;
+    height: 125px;
+    background-color: #f5f3f3;
+    margin-left: 35rem;
+    margin-top: -7.7rem;
+    border: 5px solid #ccc;
+    padding: 20px;
+}
+.pengalaman h2{
+    font-size: 30px;
+    font-family: 'Fredoka', cursive;
+    padding: 0px 0px 0px 47px;
+}
+.pengalaman h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.dedikasi{
+        display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 200px;
+    height: 125px;
+    background-color: #f5f3f3;
+    margin-left: 55rem;
+    margin-top: -8rem;
+    border: 5px solid #ccc;
+    padding: 20px;
+}
+.dedikasi h2{
+    font-size: 30px;
+    font-family: 'Fredoka', cursive;
+    padding: 0px 0px 0px 48px;
+}
+.dedikasi h3{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+.book-open-reader{
+    display: flex;
+    flex-direction: row;
+}
+.book-open-reader i{
+    font-size: 60px;
+    padding: 7rem 0px 0px 10rem;
+}
+.book-open-reader h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    padding: 7.5rem 0px 0px 2rem;
+    color: pink;
+}
+.book-open-reader h1.Pendidikan{
+    color: red;
+}
+.circle-dot{
+    display: flex;
+    flex-direction: row;
+}
+.circle-dot i{
+    font-size: 30px;
+    color: pink;
+    padding: 2rem 0px 0px 15rem;
+}
+.circle-dot p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(129, 175, 228);
+    padding: 2rem 0px 0px 2rem;
+}
+.heading{
+    font-family: 'Quicksand', cursive;
+    padding: 0px 0px 0px 19rem;
+}
+.heading h3{
+    color: gray;
+}
+.topbar {
+    display: contents;
+}
+.sidebar-close-btn{
+    display: none;}
+.sidebar-logo{
+    display: none;
+}
+.sidebar-sosmed{
+    display: none;
+}
+.hamburger-btn{
+    display: none;
+}
+.topbar-logo{
+    display: none;
+}
+.sidebar-menu{
+    display: none;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+@media (max-width: 1024px){
+.navbar {
+    display: none !important;
+}
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F194B4;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.topbar-logo {
+    text-align: center;
+    line-height: 1;
+    display: flex;
+}
+
+.topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+.topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+    font-size: 50px;
+}
+.hamburger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #F194B4;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+    z-index: 101;
+}
+.hamburger-btn:hover {
+    background-color: #fde8f0;
+}
+.sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 148;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.sidebar-overlay.overlay-active {
+    opacity: 1;
+    pointer-events: all;
+}
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #F194B4;
+    padding-top: 80px;
+    z-index: 149;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.sidebar-panel.sidebar-open {
+    transform: translateX(0);
+}
+.sidebar-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+.sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sidebar-close-btn:hover {
+    background-color: rgba(255,255,255,0.45);
+}
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar-menu a {
+    display: block;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s;
+    text-align: left;
+}
+.sidebar-menu a:hover {
+    background-color: rgba(255,255,255,0.18);
+}
+.sidebar-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding-top: 120px;
+    }
+    .card {
+        display: flex;
+        width: 55rem;
+        height: 45rem;
+        margin-left: 5rem;
+        margin-top: 50rem;
+        position: static;
+    }
+    .text {
+        margin-top: -90rem;
+        margin-left: 5rem;
+        position: static;
+    }
+    .text h2 {
+        padding: 0;
+        margin-left: rem;
+    }
+    .text p {
+        padding: 0;
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 35px;
+        margin-top: 52.5rem;
+        margin-left: 20rem;
+        width: 20rem;
+        height: 5rem;
+    } 
+    .proyek-desain {
+        margin-left: 5rem;
+        margin-top: 20rem;
+        width: 250px;
+        height: 150px;
+        position: static;
+    }
+    .proyek-desain h2{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .proyek-desain h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .pengalaman {
+        margin-top: -9.5rem;
+        margin-left: 25rem;
+        width: 250px;
+        height: 150px;
+        position: static;
+    }
+    .pengalaman h2{
+        margin-left: 15px;
+        font-size: 40px;
+    }
+    .pengalaman h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .dedikasi {
+        margin-top: -9.5rem;
+        margin-left: 45rem;
+        width: 250px;
+        height: 150px;
+        position: static;
+    }
+    .dedikasi h2{
+        margin-left: 15px;
+        font-size: 40px;
+    }
+    .dedikasi h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .book-open-reader i {
+        margin-left: -4.5rem;
+    }
+    .book-open-reader h1 {
+        margin-top: 0;
+    }
+    .circle-dot{
+        font-size: 20px;
+    }
+    .circle-dot i {
+        margin-left: -4.5rem;
+        font-size: 25px;
+    }
+    .circle-dot p {
+        margin-top: 0;
+        font-weight: 20px;
+    }
+    .heading {
+        margin-left: -4.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+    .topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+        font-size: 32px;
+    }
+    .topbar-logo{
+        display: flex;
+        padding: 20px;
+    }
+    main {
+        padding-top: 110px;
+    }
+    .card {
+        width: 90%;
+        height: 200px;
+        margin: 20px auto;
+    }
+    .text {
+        margin-top: 20px;
+        margin-left: 15px;
+        padding: 0 15px;
+    }
+    .text h2 {
+        padding: 0;
+        font-size: 28px;
+    }
+    .text p {
+        padding: 0;
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 16px;
+        margin: 20px auto;
+        width: 180px;
+        height: 45px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .proyek-desain {
+        margin-left: 40px;
+        margin-top: 20px;
+        width: calc(50% - 25px);
+        height: auto;
+        padding: 15px;
+    }
+    .proyek-desain h2 {
+        font-size: 26px;
+        padding: 0;
+        text-align: center;
+    }
+    .proyek-desain h3 {
+        font-size: 14px;
+    }
+    .pengalaman {
+        margin-top: -6.5rem;
+        margin-left: calc(50% + 30px);
+        width: calc(50% - 25px);
+        height: auto;
+        padding: 15px;
+    }
+    .pengalaman h2 {
+        font-size: 26px;
+        padding: 0;
+        text-align: center;
+    }
+    .pengalaman h3 {
+        font-size: 14px;
+    }
+    .dedikasi {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(50% - 25px);
+        height: auto;
+        padding: 15px;
+        display: block;
+    }
+    .dedikasi h2 {
+        font-size: 26px;
+        padding: 0;
+        text-align: center;
+    }
+    .dedikasi h3 {
+        font-size: 14px;
+    }
+    .book-open-reader i {
+        font-size: 40px;
+        padding: 2rem 0px 0px 20px;
+        margin-left: 0;
+    }
+    .book-open-reader h1 {
+        font-size: 24px;
+        padding: 2rem 0px 0px 10px;
+    }
+    .circle-dot i {
+        font-size: 20px;
+        padding: 1.5rem 0px 0px 20px;
+        margin-left: 0;
+    }
+    .circle-dot p {
+        font-size: 16px;
+        padding: 1.5rem 0px 0px 10px;
+    }
+    .heading {
+        padding: 0px 0px 0px 50px;
+        margin-left: 0;
+    }
+    .heading h2 {
+        font-size: 18px;
+    }
+    .heading h3 {
+        font-size: 14px;
+    }
+    .topbar {
+        height: 80px;
+    }
+    .hamburger-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .sidebar-sosmed{
+        padding-bottom: 100px;
+        font-size: 40px;
+    }
+}
