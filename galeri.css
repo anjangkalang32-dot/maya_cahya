@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Patrick+Hand&family=Quicksand:wght@500;700&display=swap');
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+}
+.A{
+    padding-left: 100px;
+}
+.navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #F194B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.menu-tengah {
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sosmed-icons {
+    display: flex;
+    gap: 1rem;
+    margin-left: 20cm;
+    margin-top: -40px;
+    font-size: 40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.huruf-1{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-2{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-3{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.huruf-4{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-5{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-6{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-7{
+    color: rgb(37, 139, 255);
+    font-size: 40px;
+}
+.huruf-8{
+    color: rgb(238, 54, 54);
+    font-size: 40px;
+}
+.huruf-9{
+    color: rgb(231, 161, 11);
+    font-size: 40px;
+}
+.ilustrasi{
+    font-family: 'Fredoka', cursive;
+    font-size: 40px;
+    color: rgb(75, 76, 78);
+    margin-top: 50px;
+    margin-left: 5rem;
+}
+.ilustrase-img{
+    width: 500px;
+    height: 300px;
+   background-color: rgb(133, 132, 132);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.ilustrase-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.desain-grafis{
+    font-family: 'Fredoka', cursive;
+    font-size: 40px;
+    color: rgb(75, 76, 78);
+    margin-left: 50rem;
+    margin-top: -23.3rem;
+}
+.desain-grafis-img{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(133, 132, 132);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50rem;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.desain-grafis-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.desain-karakter{
+    font-family: 'Fredoka', cursive;
+    font-size: 40px;
+    color: rgb(75, 76, 78);
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.desain-karakter-img{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(133, 132, 132);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.desain-karakter-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.desain-identitas{
+    font-family: 'Fredoka', cursive;
+    font-size: 40px;
+    color: rgb(75, 76, 78);
+    margin-left: 50rem;
+    margin-top: -23.3rem;
+}
+.desain-identitas-img{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(133, 132, 132);
+    background-size: cover;
+    background-position: center;
+    margin-left: 50rem;
+    margin-top: 20px;
+}
+.desain-identitas-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.background {
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #F099B5 0%, #FFFFFF 100%);
+    min-height: 100vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 10rem;
+}
+
+.text {
+    font-family: 'Patrick Hand', sans-serif;
+    font-weight: 700;
+    color: #cf8655;
+    font-size: 30px;
+}
+
+.text p {
+    font-family: 'Quicksand', sans-serif;
+    color: #F194B4;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 30px 25px;
+}
+
+.contact h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+}
+
+.contact .sub-title {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(39, 39, 39);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.contact span {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    background-color: #E6E1E3;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.Komen {
+    height: 100px;
+    resize: none;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-wrapper input {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.checkbox-wrapper label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    color: rgb(39, 39, 39);
+    line-height: 1.4;
+    cursor: pointer;
+}
+.btn-kirim {
+    background-color: #F099B5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 0;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.btn-kirim:hover {
+    background-color: #e27f9e;
+}
+.topbar,
+.sidebar-panel,
+.sidebar-overlay {
+    display: none;
+}
+.topbar {
+    display: contents;
+}
+.sidebar-close-btn{
+    display: none;}
+.sidebar-logo{
+    display: none;
+}
+.sidebar-sosmed{
+    display: none;
+}
+.hamburger-btn{
+    display: none;
+}
+.topbar-logo{
+    display: none;
+}
+.sidebar-menu{
+    display-none
+}
+
+@media (max-width: 1024px) {
+.navbar {
+    display: none !important;
+}
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F194B4;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.topbar-logo {
+    text-align: center;
+    line-height: 1;
+    display: flex;
+}
+
+.topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+.topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+    font-size: 50px;
+}
+
+.hamburger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #F194B4;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+    z-index: 101;
+}
+.hamburger-btn:hover {
+    background-color: #fde8f0;
+}
+.sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 148;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.sidebar-overlay.overlay-active {
+    opacity: 1;
+    pointer-events: all;
+}
+.sidebar-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #F194B4;
+    padding-top: 80px;
+    z-index: 149;
+    box-shadow: 4px 0 16px rgba(0,0,0,0.15);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.sidebar-panel.sidebar-open {
+    transform: translateX(0);
+}
+.sidebar-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+.sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.sidebar-close-btn:hover {
+    background-color: rgba(255,255,255,0.45);
+}
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sidebar-menu a {
+    display: block;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: background 0.2s;
+    text-align: left;
+}
+.sidebar-menu a:hover {
+    background-color: rgba(255,255,255,0.18);
+}
+.sidebar-sosmed {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: auto;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    width: 100%;
+}
+main {
+    margin-left: 0;
+    width: 100%;
+    padding-top: 100px;
+}
+footer {
+    margin-left: 0;
+    width: 100%;
+}
+.ilustrasi {
+    font-family: 'Fredoka', cursive;
+    font-size: 32px;
+    padding-left: 27rem;
+    margin-top: 30px;
+    margin-left: 0;
+}
+.ilustrase-img {
+    border-radius: 20px;
+    margin-left: 13rem;
+    margin-top: 20px;
+    width: 60%;
+    height: 250px;
+}
+.desain-grafis {
+    font-family: 'Fredoka', cursive;
+    font-size: 32px;
+    padding-left: 27rem;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.desain-grafis-img {
+    border-radius: 20px;
+    margin-left: 13rem;
+    margin-top: 20px;
+    width: 60%;
+    height: 250px;
+}
+.desain-karakter {
+    font-family: 'Fredoka', cursive;
+    font-size: 32px;
+    padding-left: 27rem;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.desain-karakter-img {
+    border-radius: 20px;
+    margin-left: 13rem;
+    margin-top: 20px;
+    width: 60%;
+    height: 250px;
+}
+.desain-identitas {
+    font-family: 'Fredoka', cursive;
+    font-size: 32px;
+    padding-left: 25rem;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.desain-identitas-img {
+    border-radius: 20px;
+    margin-left: 13rem;
+    margin-top: 20px;
+    width: 60%;
+    height: 250px;
+}
+.background {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+.text {
+    font-size: 24px;
+}
+.contact {
+    width: 80%;
+}
+.contact h2{
+    padding-left: 15rem;
+}
+.contact p{
+    padding-left: 15rem;
+    font-size: 30px;
+}
+}
+@media (max-width: 480px) {
+    .topbar .huruf-1, .topbar .huruf-2, .topbar .huruf-3, .topbar .huruf-4,
+    .topbar .huruf-5, .topbar .huruf-6, .topbar .huruf-7, .topbar .huruf-8, .topbar .huruf-9 {
+        font-size: 32px;
+    }
+    .topbar-logo{
+        display: flex;
+        padding: 20px;
+    }
+    main {
+        padding-top: 110px;
+    }
+    .ilustrasi {
+        font-size: 24px;
+        padding-left: 9rem;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .ilustrase-img {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+    }
+    .desain-grafis {
+        font-size: 24px;
+        padding-left: 8rem;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .desain-grafis-img {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+    }
+    .desain-karakter {
+        font-size: 24px;
+        padding-left: 9rem;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .desain-karakter-img {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+    }
+    .desain-identitas {
+        font-size: 24px;
+        padding-left: 7rem;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .desain-identitas-img {
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+    }
+    .background {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+        margin-top: 20px;
+        gap: 1.5rem;
+    }
+    .text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .text p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact {
+        width: 95%;
+        padding: 20px 15px;
+    }
+    .contact h2 {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .contact p {
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .topbar {
+        height: 80px;
+    }
+    .hamburger-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .sidebar-sosmed{
+        font-size: 40px;
+        padding-bottom: 100px;
+    }
+}

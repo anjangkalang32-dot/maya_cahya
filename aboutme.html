@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sniglet:wght@400;800&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aboutme.css">
+</head>
+<body>
+    <div class="topbar" id="topbar">
+        <button class="hamburger-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="topbar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+    </div>
+
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+    <div class="sidebar-panel" id="sidebarPanel">
+        <button class="sidebar-close-btn" onclick="toggleSidebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="sidebar-logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <nav class="sidebar-menu">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </nav>
+        <div class="sidebar-sosmed">
+            <a href="https://www.instagram.com/myachya_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <header class="navbar">
+        <div class="logo sniglet-extrabold">
+            <span class="huruf-1">M</span><span class="huruf-2">A</span><span class="huruf-3">Y</span><span class="huruf-4">A</span>
+            &nbsp;
+            <span class="huruf-5">C</span><span class="huruf-6">A</span><span class="huruf-7">H</span><span class="huruf-8">Y</span><span class="huruf-9">A</span>
+        </div>
+        <div class="menu-tengah">
+            <a href="index.html">Home</a>
+            <a href="galeri.html">Galeri</a>
+            <a href="aboutme.html">Tentang Saya</a>
+            <a href="contact.html">Kontak</a>
+        </div>
+        <div class="sosmed-icons">
+            <a href="https://www.instagram.com/mayacahya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@its.leomy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com/@itsleomy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <img src="aboutme.jpg" alt="gambar">
+        </div>
+        <div class="text">
+            <h2>Tentang saya</h2>
+            <h2 class="sub-judul">Kenalan sama maya yuk!</h2>
+            <p>Halo! Aku Maya Cahya seorang <br>
+            designer yang percaya bahwa design <br>
+            yang terbaik bukan cuma soal tampilan, <br>
+            tapi soal perasaan yang di tinggalkan. <br>
+            <br>
+            Aku seneng banget mengubah ide-ide <br>
+            yang masih samar jadi karya visual <br>
+            yang bermakna dan lebih senang lagi <br>
+            kalau karya itu bisa bikin orang lain <br>
+            tersenyum</p>
+        </div>
+        <button class="btn"><a href="contact.html">Ayo Kerja Sama</a></button>
+    </main>
+    <footer>
+    <div class="main-container">
+        <div class="proyek-desain">
+            <h2>20+</h2>
+            <h3>Proyek Desain <br>Selesai</h3>
+        </div>
+        <div class="pengalaman">
+            <h2>2thn</h2>
+            <h3>Tahun <br>Pengalaman</h3>
+        </div>
+        <div class="dedikasi">
+            <h2>100%</h2>
+            <h3>Dedikasi di <br>Setiap Proyek</h3>
+        </div>
+        <div class="book-open-reader">
+        <i class="fa-solid fa-book-open-reader"></i>
+        <h1>Latar Belakang</h1>
+        <h1 class="Pendidikan">Pendidikan</h1>
+        </div>
+        <div class="circle-dot">
+            <i class="fa-regular fa-circle-dot"></i>
+            <p>2023-sekarang</p>
+        </div>
+        <div class="heading">
+            <h2>S1 Seni Rupa</h2>
+            <h3>Universitas Negeri Semarang</h3>
+        </div>
+    </div>
+    </footer>
+       <script>
+        function toggleSidebar() {
+            const panel = document.getElementById('sidebarPanel');
+            const overlay = document.getElementById('sidebarOverlay');
+            panel.classList.toggle('sidebar-open');
+            overlay.classList.toggle('overlay-active');
+        }
+    </script>
+</body>
+</html>
